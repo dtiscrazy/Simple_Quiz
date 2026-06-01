@@ -1,103 +1,103 @@
 const quizData = [
 {
-    question: "What is capital of India?",
-    options: ["Mumbai", "Kolkata", "New Delhi", "Chennai"],
-    answer: "New Delhi"
-},
-{
-    question: "How many continents are on the Earth?",
-    options: ["5", "6", "7", "8"],
-    answer: "7"
-},
-{
-    question: "Which planet is known as the red planet?",
-    options: ["Venus", "Jupiter", "Earth", "Mars"],
-    answer: "Mars"
-},
-{
-    question: "Who invented the telephone?",
-    options: ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Isaac Newton"],
-    answer: "Alexander Graham Bell"
-},
-{
-    question: "What is the largest ocean on the Earth?",
-    options: ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
-    answer: "Pacific Ocean"
-},
-{
-    question: "Which animal is known as the King of the Jungle?",
-    options: ["Tiger", "Elephant", "Leopard", "Lion"],
-    answer: "Lion"
-},
-{
-    question: "How many days are there in a leap year?",
-    options: ["364", "365", "366", "367"],
-    answer: "366"
-},
-{
-    question: "Which gas do plants absorb from the atmosphere?",
-    options: ["Oxygen", "Nitrogen", "Hydrogen", "Carbon Dioxide"],
-    answer: "Carbon Dioxide"
-},
-{
-    question: "Who painted the Mona Lisa?",
-    options: ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Michelangelo"],
-    answer: "Leonardo da Vinci"
-},
-{
-    question: "What is the national bird of India?",
-    options: ["Sparrow", "Eagle", "Parrot", "Peacock"],
-    answer: "Peacock"
-},
-{
-    question: "Which is the smallest planet in the Solar System?",
-    options: ["Mars", "Venus", "Earth", "Mercury"],
+    question: "What is the closest planet to the Sun?",
+    options: ["Venus", "Mercury", "Earth", "Mars"],
     answer: "Mercury"
 },
 {
-    question: "What is the boiling point of water in Celsius?",
-    options: ["90", "95", "100", "110"],
-    answer: "100"
+    question: "What is known as the Red Planet?",
+    options: ["Mars", "Venus", "Jupiter", "Saturn"],
+    answer: "Mars"
 },
 {
-    question: "Which country is famous for the Eiffel Tower?",
-    options: ["Italy", "Germany", "Spain", "France"],
-    answer: "France"
+    question: "What gas do humans need to breathe?",
+    options: ["Nitrogen", "Oxygen", "Carbon Dioxide", "Hydrogen"],
+    answer: "Oxygen"
 },
 {
-    question: "How many players are there in a football team on the field?",
-    options: ["9", "10", "11", "12"],
-    answer: "11"
+    question: "Which planet is the largest in our Solar System?",
+    options: ["Earth", "Saturn", "Jupiter", "Neptune"],
+    answer: "Jupiter"
 },
 {
-    question: "Which is the fastest land animal?",
-    options: ["Lion", "Tiger", "Horse", "Cheetah"],
-    answer: "Cheetah"
+    question: "What is the powerhouse of the cell?",
+    options: ["Nucleus", "Ribosome", "Mitochondria", "Chloroplast"],
+    answer: "Mitochondria"
 },
 {
-    question: "Who was the first man to walk on the Moon?",
-    options: ["Yuri Gagarin", "Buzz Aldrin", "Michael Collins", "Neil Armstrong"],
+    question: "What galaxy contains our Solar System?",
+    options: ["Andromeda", "Milky Way", "Whirlpool", "Triangulum"],
+    answer: "Milky Way"
+},
+{
+    question: "What is the chemical symbol for water?",
+    options: ["O2", "CO2", "H2O", "NaCl"],
+    answer: "H2O"
+},
+{
+    question: "Which planet is famous for its rings?",
+    options: ["Mars", "Jupiter", "Saturn", "Venus"],
+    answer: "Saturn"
+},
+{
+    question: "How many planets are in our Solar System?",
+    options: ["7", "8", "9", "10"],
+    answer: "8"
+},
+{
+    question: "Which blood cells help fight infections?",
+    options: ["Red Blood Cells", "White Blood Cells", "Platelets", "Plasma"],
+    answer: "White Blood Cells"
+},
+{
+    question: "What force keeps planets orbiting the Sun?",
+    options: ["Magnetism", "Gravity", "Friction", "Electricity"],
+    answer: "Gravity"
+},
+{
+    question: "What is the boiling point of water at sea level?",
+    options: ["90°C", "95°C", "100°C", "110°C"],
+    answer: "100°C"
+},
+{
+    question: "Which planet is known as Earth's twin?",
+    options: ["Mars", "Venus", "Mercury", "Neptune"],
+    answer: "Venus"
+},
+{
+    question: "What is the hardest natural substance on Earth?",
+    options: ["Iron", "Diamond", "Gold", "Quartz"],
+    answer: "Diamond"
+},
+{
+    question: "Which star is at the center of our Solar System?",
+    options: ["Polaris", "Sirius", "Sun", "Betelgeuse"],
+    answer: "Sun"
+},
+{
+    question: "What part of the plant absorbs water from the soil?",
+    options: ["Stem", "Leaf", "Flower", "Root"],
+    answer: "Root"
+},
+{
+    question: "Which planet is farthest from the Sun?",
+    options: ["Saturn", "Uranus", "Neptune", "Jupiter"],
+    answer: "Neptune"
+},
+{
+    question: "What is the chemical symbol for gold?",
+    options: ["Ag", "Au", "Gd", "Go"],
+    answer: "Au"
+},
+{
+    question: "What protects Earth from harmful UV rays?",
+    options: ["Clouds", "Ozone Layer", "Gravity", "Moon"],
+    answer: "Ozone Layer"
+},
+{
+    question: "Who was the first person to walk on the Moon?",
+    options: ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "Michael Collins"],
     answer: "Neil Armstrong"
-},
-{
-    question: "What is the currency of Japan?",
-    options: ["Won", "Yuan", "Dollar", "Yen"],
-    answer: "Yen"
-},
-{
-    question: "Which is the largest mammal in the world?",
-    options: ["Elephant", "Giraffe", "Hippopotamus", "Blue Whale"],
-    answer: "Blue Whale"
-},
-{
-    question: "How many colors are there in a rainbow?",
-    options: ["5", "6", "7", "8"],
-    answer: "7"
-},
-{
-    question: "Which organ pumps blood throughout the body?",
-    options: ["Brain", "Liver", "Lungs", "Heart"],
-    answer: "Heart"
 }
 ];
 
@@ -105,6 +105,7 @@ quizData.sort(() => Math.random() - 0.5);
 
 let currentQuestion = 0;
 let score = 0;
+let selectedAnswer = "";
 
 function startQuiz() {
     document.getElementById("start-screen").classList.add("hidden");
@@ -126,7 +127,7 @@ function loadQuestion() {
         q.question;
 
     document.getElementById("progress-bar").style.width =
-        (((currentQuestion + 1) / quizData.length) * 100) + "%"
+        (((currentQuestion + 1) / quizData.length) * 100) + "%";
 
     let optionsDiv = document.getElementById("options");
 
@@ -134,42 +135,44 @@ function loadQuestion() {
 
     q.options.forEach(function(option, index) {
 
-        let p = document.createElement("p");
+    let p = document.createElement("p");
 
-        p.classList.add("option");
+    p.classList.add("option");
 
-        p.textContent = (index + 1) + ". " + option;
+    p.textContent = (index + 1) + ". " + option;
 
-        optionsDiv.appendChild(p);
-    });
+    p.style.cursor = "pointer";
 
-    document.getElementById("answer-input").value = "";
+    p.onclick = function() {
+
+    document.querySelectorAll(".option")
+        .forEach(function(option) {
+            option.classList.remove("selected-option");
+        });
+
+    p.classList.add("selected-option");
+
+    selectedAnswer = option;
+};
+
+    optionsDiv.appendChild(p);
+});
+
 }
 
 function submitAnswer() {
 
-    let userAnswer =
-        document.getElementById("answer-input")
-        .value
-        .trim()
-        .toLowerCase();
-
-    if (userAnswer === "") {
-        alert("Enter an answer!");
+    let userAnswer = selectedAnswer.toLowerCase();
+    if (selectedAnswer === "") {
+        alert("Select an option first!");
         return;
     }
-
     let correctAnswer =
-        quizData[currentQuestion].answer;
-
-    let correctOption =
-        quizData[currentQuestion]
-        .options
-        .indexOf(correctAnswer) + 1;
+    quizData[currentQuestion].answer;
 
     let isCorrect =
-        userAnswer === correctAnswer.toLowerCase() ||
-        userAnswer === String(correctOption);
+    userAnswer === correctAnswer.toLowerCase();
+
 
     if (isCorrect) {
 
@@ -239,16 +242,3 @@ function showFinalScreen() {
 
     document.getElementById("ranking").textContent = ranking;
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-
-    document.getElementById("answer-input")
-        .addEventListener("keydown", function (event) {
-
-            if (event.key === "Enter") {
-                submitAnswer();
-            }
-
-        });
-
-});

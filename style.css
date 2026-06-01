@@ -75,11 +75,24 @@ margin-bottom:20px;
 }
 
 .option{
-background:#1E1F1C;
-padding:12px;
-border-radius:8px;
-margin:8px 0;
-color:#F8F8F2;
+    background:#1E1F1C;
+    padding:12px;
+    border-radius:8px;
+    margin:8px 0;
+    color:#F8F8F2;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.option:hover{
+    transform:translateX(5px);
+}
+
+.selected-option{
+    background:#66D9EF;
+    color:#272822;
+    font-weight:bold;
+    border:2px solid #A6E22E;
 }
 
 input{
